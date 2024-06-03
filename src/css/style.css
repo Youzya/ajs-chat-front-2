@@ -1,0 +1,149 @@
+body {
+    background: linear-gradient(#bbb, transparent 1px),
+        linear-gradient(90deg, #bbb, transparent 1px);
+    background-size: 15px 15px;
+    background-position: center center;
+
+}
+
+.autorization {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 0 20px 20px;
+    color: #697179;
+    position: absolute;
+    z-index: 10000;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #bfcad3;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.input {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border: 2px solid #b6b5cfc9;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.input.valid {
+    border: 1px solid green;
+}
+
+.input.error {
+    border: 1px solid red;
+}
+
+h4 {
+    margin: 20px 0;
+}
+
+.btn {
+    width: 150px;
+    align-self: center;
+    margin-top: 15px;
+    padding: 9px 20px;
+    background-color: #ffffff;
+    border: 2px solid #bfcad3;
+    border-radius: 20px;
+    cursor: pointer;
+    color:  #697179;
+}
+
+.form-chat {
+    width: 50%;
+    display: flex;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: sans-serif;
+    color: rgb(87, 89, 97);
+}
+
+.chat {
+    border: .5px solid rgb(87, 89, 97);
+    ;
+    border-radius: 5px;
+    width: 100%;
+    height: 360px;
+    padding: 2.5%;
+    position: relative;
+}
+
+.form-message {
+    width: 100%
+}
+
+.message {
+    color: #495057;
+    position: relative;
+}
+
+.data-user {
+    font-size: 12px;
+}
+
+.user-name {
+    margin-right: 5px;
+}
+
+.message-left {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.message-right {
+    text-align: right;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.text {
+    margin: 10px auto;
+}
+
+.input-chat {
+    width: 95%;
+    position: absolute;
+    bottom: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: .375rem .50%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    outline: none;
+
+}
+
+.users {
+    height: 50%;
+    border-top: .5px solid rgb(87, 89, 97);
+    border-left: .5px solid rgb(87, 89, 97);
+    border-bottom: .5px solid rgb(87, 89, 97);
+    border-radius: 5px;
+    padding: 30px;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.user {
+    padding-bottom: 10px;
+
+}
+
+.user-status {
+    width: 10px;
+    height: 10px;
+    border: .5px solid rgb(87, 89, 97);
+    ;
+    border-radius: 5px;
+}
