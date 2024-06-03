@@ -1,4 +1,4 @@
 import Chat from './chat';
 
-const chat = new Chat('https://ajs-chat-front.onrender.com');
+const chat = new Chat('https://ajs-chat-back.onrender.com');
 chat.init();
